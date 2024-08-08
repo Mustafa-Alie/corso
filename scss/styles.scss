@@ -1,0 +1,55 @@
+.navbar-custom {
+    opacity: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.nav-icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+.nav-icon:hover {
+    background-color: #c69139 !important;
+}
+
+header {
+    background: linear-gradient(to bottom right,
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.8)),
+        url(../images/header-background.jpg) center center no-repeat;
+}
+
+
+//keep navbar dark on small screens:
+@media (max-width:992px) {
+    .navbar {
+        background-color: var(--bs-dark);
+    }
+}
+
+/* Custom styles to change the carousel indicators and control colors */
+.carousel-indicators [data-bs-target] {
+    background-color: #5f3c04;
+    /* Change the indicators to black */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1);
+    /* Invert the color of the control arrows to black */
+}
+
+.number {
+    width: 3rem;
+    height: 3rem;
+}
+
+.join-us {
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/invitation-background.jpg') center center no-repeat;
+}
+
+/////////////////////////////////
+
+.takeway-feature {
+    flex: 1;
+}
